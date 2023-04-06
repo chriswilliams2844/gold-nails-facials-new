@@ -1,0 +1,20 @@
+# dependencies
+/node_modules
+
+# IDE
+.vscode
+
+# next.js
+/.next/
+
+#env
+.env.local
+.env
+
+#package-lock.json
+package-lock.json
+
+
+# Exclude Prisma migration files
+prisma/migrations/*
+!/prisma/migrations/.keep
